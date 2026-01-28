@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public static void main(String[] args) throws InterruptedException {
+		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("Hello Jenkins CI 🚀");
 		while (true) {
 			Thread.sleep(1000);
