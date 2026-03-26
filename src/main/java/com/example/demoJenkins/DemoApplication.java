@@ -9,6 +9,7 @@ public class DemoApplication {
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("Hello Jenkins CI 🚀");
+		System.out.println("Hello Jenkins CI 🚀");
 		while (true) {
 			Thread.sleep(1000);
 			System.out.println("App is running...");
